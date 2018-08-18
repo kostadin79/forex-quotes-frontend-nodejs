@@ -6,7 +6,7 @@ This projects is based on [node-mt4-zmq-bridge](https://github.com/bonnevoyager/
 
 It's a Node.js and [MetaTrader 4](https://www.metatrader4.com/) communication bridge with [ZeroMQ](http://zeromq.org/).
 
-###Installation
+### Installation
 
 1. Install [mql-zmq](https://github.com/dingmaotu/mql-zmq) on MT4
 
@@ -18,7 +18,7 @@ It's a Node.js and [MetaTrader 4](https://www.metatrader4.com/) communication br
       npm install --save mt4-zmq-bridge
 ```
 
-###Usage
+### Usage
 
 Change  URL to REQ server  and  URL to PULL server with your own
 ###### Example
