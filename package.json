@@ -1,0 +1,31 @@
+{
+  "name": "forex-quotes-frontend-nodejs",
+  "version": "1.0.0",
+  "description": "Forex realtime quotes for website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostadin79/forex-quotes-frontend-nodejs.git"
+  },
+  "keywords": [
+    "zmq",
+    "mt4",
+    "nodejs"
+  ],
+  "author": "Kostadin Milev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostadin79/forex-quotes-frontend-nodejs/issues"
+  },
+  "homepage": "https://github.com/kostadin79/forex-quotes-frontend-nodejs#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mt4-zmq-bridge": "^1.1.0",
+    "zeromq": "^4.6.0"
+  }
+}
