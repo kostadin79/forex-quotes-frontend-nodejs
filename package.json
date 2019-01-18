@@ -1,5 +1,5 @@
 {
-  "name": "forex-quotes-angular2",
+  "name": "forex-quotes-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,6 +9,21 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostadin79/forex-quotes-frontend-nodejs.git"
+  },
+  "keywords": [
+    "zmq",
+    "mt4",
+    "nodejs"
+  ],
+  "author": "Kostadin Milev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostadin79/forex-quotes-frontend-nodejs/issues"
+  },
+  "homepage": "https://github.com/kostadin79/forex-quotes-frontend-nodejs#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
