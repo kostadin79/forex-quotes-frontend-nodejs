@@ -28,7 +28,7 @@ return new Promise((resolve, reject) => {
             resolve()
         }
     };
-    zmqBridge = mt4zmqBridge.connect('tcp://127.0.0.14:5555', 'tcp://127.0.0.1:5556')
+    zmqBridge = mt4zmqBridge.connect('tcp://127.0.0.1:5555', 'tcp://127.0.0.1:5556')
     zmqBridge.reqSocket.on('connect', socketIsReady)
     zmqBridge.pullSocket.on('connect', socketIsReady)
 }).then(() => {
