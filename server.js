@@ -28,7 +28,7 @@ return new Promise((resolve, reject) => {
             resolve()
         }
     };
-    zmqBridge = mt4zmqBridge.connect('tcp://172.16.14.109:5555', 'tcp://172.16.14.109:5556')
+    zmqBridge = mt4zmqBridge.connect('tcp://127.0.0.14:5555', 'tcp://127.0.0.1:5556')
     zmqBridge.reqSocket.on('connect', socketIsReady)
     zmqBridge.pullSocket.on('connect', socketIsReady)
 }).then(() => {
@@ -49,7 +49,7 @@ return new Promise((resolve, reject) => {
 
     app.use(bodyParser.urlencoded({extended: true}));
     app.use(bodyParser.json());
-    const port = process.env.PORT || 8080
+    const port = process.env.PORT || 8080;
     const router = express.Router();
     router.use((req, res, next) => {
         if (quotesContainer[codes[0]].rates.length < 2) {
