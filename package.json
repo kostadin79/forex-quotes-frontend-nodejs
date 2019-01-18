@@ -1,31 +1,53 @@
 {
-  "name": "forex-quotes-frontend-nodejs",
-  "version": "1.0.0",
-  "description": "Forex realtime quotes for website",
-  "main": "server.js",
+  "name": "forex-quotes-angular2",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kostadin79/forex-quotes-frontend-nodejs.git"
-  },
-  "keywords": [
-    "zmq",
-    "mt4",
-    "nodejs"
-  ],
-  "author": "Kostadin Milev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kostadin79/forex-quotes-frontend-nodejs/issues"
-  },
-  "homepage": "https://github.com/kostadin79/forex-quotes-frontend-nodejs#readme",
+  "private": true,
   "dependencies": {
+    "@angular/animations": "~7.2.0",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
     "async": "^2.6.1",
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "mt4-zmq-bridge": "^1.1.0",
-    "zeromq": "^4.6.0"
+    "rxjs": "~6.3.3",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.12.0",
+    "@angular/cli": "^7.2.2",
+    "@angular/compiler-cli": "~7.2.0",
+    "@angular/language-service": "~7.2.0",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.5.0",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~3.1.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.2.2",
+    "zeromq": "^5.1.0"
   }
 }
